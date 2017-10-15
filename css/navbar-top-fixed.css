@@ -18,3 +18,7 @@ body {
 .sidebar-module-inset ol:last-child {
     margin-bottom: 0;
 }
+
+.nav{
+    width: 100%;
+}

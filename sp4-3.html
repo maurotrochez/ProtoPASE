@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Fixed top navbar example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-top-fixed.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl fixed-top navbar-light bg-light">
+    <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"-->
+    <!--data-target="#collapsingNavbar">-->
+    <!--<span class="navbar-toggler-icon"></span>-->
+    <!--</button>-->
+    <!--<a class="navbar-brand" href="#!">Fixed top</a>-->
+    <nav class="nav flex-column">
+        <a href="/" class="navbar-brand">
+            <img src="http://placehold.it/120x60">
+            PASE: Programa de Apoyo Acompañamiento y Seguimiento a Estudiantes</a>
+        <div class="navbar-collapse collapse" id="collapsingNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">Home</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="sp4.html">Consulta perfil estudiante</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sp4-2.html">Consulta diagnósticos ingreso</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="sp4-3.html">Consulta seguimiento PMA</a>
+                </li>
+            </ul>
+            <div class="form-inline mt-2 mt-md-0">
+                <span>Nombre de usuario autenticado</span>
+            </div>
+        </div>
+    </nav>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-2 offset-sm-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Coordinadores</h5>
+                <ol class="list-unstyled">
+                    <li><a href="#">Ingeniería</a></li>
+                    <li><a href="#">Educación a distancia y virtual</a></li>
+                    <li><a href="#">Ciencias basicas</a></li>
+                    <li><a href="#">Ciencias sociales y humanas</a></li>
+                    <li><a href="#">Language center</a></li>
+                    <li><a href="#">Bienestar universitario</a></li>
+                    <li><a href="#">PMA</a></li>
+                </ol>
+            </div>
+            <hr>
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Normatividad</h5>
+                <ol class="list-unstyled">
+                    <li><a href="#">Protección de datos</a></li>
+                    <li><a href="#">Uso de servicios en linea</a></li>
+                    <li><a href="#">Uso de PASE</a></li>
+                </ol>
+            </div>
+            <hr>
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Reportes PASE</h5>
+                <ol class="list-unstyled">
+                    <li><a href="#">Asistencias PMA</a></li>
+                    <li><a href="#">Asistencias actividades bienestar</a></li>
+                    <li><a href="#">Psicología</a></li>
+                    <li><a href="#">Caracterización</a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="col-xl-8 blog-main">
+            <div class="sidebar-module sidebar-module-inset">
+                <div>
+                    <h5>Consulta seguimiento PMA</h5>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <h6>Consulta laboratorio</h6>
+                            <form>
+                                <div class="form-group">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                               id="exampleRadios1" value="option1" checked>
+                                        Docente
+                                    </label>
+                                    <br>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                               id="exampleRadios2" value="option1">
+                                        Estudiante
+                                    </label>
+                                    <br>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                               id="exampleRadios3" value="option1">
+                                        Materia
+                                    </label>
+                                    <br>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                               id="exampleRadios4" value="option1">
+                                        Grupo
+                                    </label>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <label for="formGroupExampleInput">Digite documento del estudiante</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput"
+                                           placeholder="Documento">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Consultar</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-6">
+                            <h6>Consulta PMA</h6>
+                            <form>
+                                <div class="form-group">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                               id="exampleRadios1.1" value="option1" checked>
+                                        Docente
+                                    </label>
+                                    <br>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                               id="exampleRadios2.1" value="option1">
+                                        Becario
+                                    </label>
+                                    <br>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                               id="exampleRadios3.1" value="option1">
+                                        Estudiante
+                                    </label>
+                                    <br>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                               id="exampleRadios4.1" value="option1">
+                                        Materia
+                                    </label>
+                                    <br>
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                               id="exampleRadios5.1" value="option1">
+                                        Grupo
+                                    </label>
+                                    <br>
+                                    <br>
+                                    <label for="formGroupExampleInput">Digite documento del estudiante</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput"
+                                           placeholder="Documento">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Consultar</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 offset-sm-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Enfermeria</h5>
+                <img src="http://placehold.it/160x120">
+            </div>
+            <hr>
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Horas de tutorias</h5>
+                <img src="http://placehold.it/160x120">
+            </div>
+            <hr>
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Psicología</h5>
+                <img src="http://placehold.it/160x120">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="js/vendor/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
