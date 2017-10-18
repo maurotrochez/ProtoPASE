@@ -22,3 +22,10 @@ body {
 .nav{
     width: 100%;
 }
+
+a.disabled {
+    /* Make the disabled links grayish*/
+    color: gray;
+    /* And disable the pointer events */
+    pointer-events: none;
+}
