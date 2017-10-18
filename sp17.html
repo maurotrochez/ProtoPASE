@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Fixed top navbar example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-top-fixed.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl fixed-top navbar-light bg-light">
+    <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"-->
+    <!--data-target="#collapsingNavbar">-->
+    <!--<span class="navbar-toggler-icon"></span>-->
+    <!--</button>-->
+    <!--<a class="navbar-brand" href="#!">Fixed top</a>-->
+    <nav class="nav flex-column">
+        <a href="/" class="navbar-brand">
+            <img src="http://placehold.it/120x60">
+            PASE: Programa de Apoyo Acompañamiento y Seguimiento a Estudiantes</a>
+        <div class="navbar-collapse collapse" id="collapsingNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sp13.html">Info. Básica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sp14.html">Diag. Ciencias básicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sp15.html">Comprensión de lectura</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sp16.html">Competencias ciudadanas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sp17.html">Segundo idioma</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sp18.html">Disciplinar</a>
+                </li>
+            </ul>
+            <div class="form-inline mt-2 mt-md-0">
+                <span>Nombre de usuario autenticado</span>
+            </div>
+        </div>
+    </nav>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-2 offset-sm-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Coordinadores</h5>
+                <ol class="list-unstyled">
+                    <li><a href="#">Ingeniería</a></li>
+                    <li><a href="#">Educación a distancia y virtual</a></li>
+                    <li><a href="#">Ciencias basicas</a></li>
+                    <li><a href="#">Ciencias sociales y humanas</a></li>
+                    <li><a href="#">Language center</a></li>
+                    <li><a href="#">Bienestar universitario</a></li>
+                    <li><a href="#">PMA</a></li>
+                </ol>
+            </div>
+            <hr>
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Normatividad</h5>
+                <ol class="list-unstyled">
+                    <li><a href="#">Protección de datos</a></li>
+                    <li><a href="#">Uso de servicios en linea</a></li>
+                    <li><a href="#">Uso de PASE</a></li>
+                </ol>
+            </div>
+            <hr>
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Reportes PASE</h5>
+                <ol class="list-unstyled">
+                    <li><a href="#">Asistencias PMA</a></li>
+                    <li><a href="#">Asistencias actividades bienestar</a></li>
+                    <li><a href="#">Psicología</a></li>
+                    <li><a href="#">Caracterización</a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="col-xl-8 blog-main">
+            <div class="sidebar-module sidebar-module-inset">
+                <div class="sidebar-module sidebar-module-inset">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <h5>Diagnóstico de segundo idioma</h5>
+                            <hr>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Pregunta ejemplo</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleSelect1">Example select</label>
+                                    <select class="form-control" id="exampleSelect1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleSelect2">Example multiple select</label>
+                                    <select multiple class="form-control" id="exampleSelect2">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleTextarea">Example textarea</label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">File input</label>
+                                    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                                    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+                                </div>
+                                <fieldset class="form-group">
+                                    <legend>Radio buttons</legend>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                            Option one is this and that&mdash;be sure to include why it's great
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                            Option two can be something else and selecting it will deselect option one
+                                        </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                                            Option three is disabled
+                                        </label>
+                                    </div>
+                                </fieldset>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input">
+                                        Check me out
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 offset-sm-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Enfermeria</h5>
+                <img src="http://placehold.it/160x120">
+            </div>
+            <hr>
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Horas de tutorias</h5>
+                <img src="http://placehold.it/160x120">
+            </div>
+            <hr>
+            <div class="sidebar-module sidebar-module-inset">
+                <h5>Psicología</h5>
+                <img src="http://placehold.it/160x120">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="js/vendor/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
